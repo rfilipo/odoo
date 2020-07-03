@@ -1,0 +1,17 @@
+@font-face {
+    font-family: "hammer";
+    src: url("./fonts/hammer.woff") format('woff');
+}
+body {
+  font-family: hammer, sans-serif;
+  background-image: url("./img/big_bg.jpg");
+  background-size: contain;
+}
+.container {
+    background-color: #169a8200;
+}
+.btn-success {
+    color: #fff;
+    background-color: #01b09d;
+    border-color: #01b09d;
+}
